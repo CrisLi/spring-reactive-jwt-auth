@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.xyz.reits2.auth.domain.User;
-import com.xyz.reits2.auth.repository.UserRepository;
+import com.xyz.reits2.auth.service.UserService;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
@@ -19,15 +19,16 @@ import reactor.core.publisher.Mono;
 public class UserController {
 
     @Autowired
-    private UserRepository userRepository;
+    private UserService userService;
 
     @PostMapping
     public Mono<User> create(@RequestBody @Validated User user) {
-        return userRepository.save(user);
+        return userService.create(user);
     }
 
     @GetMapping
     public Flux<User> getAll() {
-        return userRepository.findAll();
+        return userService.findAll();
     }
+
 }
