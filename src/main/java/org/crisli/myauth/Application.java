@@ -1,4 +1,4 @@
-package com.xyz.reits2.auth;
+package org.crisli.myauth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,8 +1,10 @@
-package com.xyz.reits2.auth.service;
+package org.crisli.myauth.service;
 
 import static java.util.Collections.singletonList;
 import static java.util.function.Function.identity;
 
+import org.crisli.myauth.domain.User;
+import org.crisli.myauth.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.crypto.factory.PasswordEncoderFactories;
@@ -10,9 +12,6 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.util.CollectionUtils;
-
-import com.xyz.reits2.auth.domain.User;
-import com.xyz.reits2.auth.repository.UserRepository;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

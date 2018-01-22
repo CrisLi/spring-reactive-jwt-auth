@@ -1,4 +1,4 @@
-package com.xyz.reits2.auth.jwt;
+package org.crisli.myauth.jwt;
 
 import java.util.function.Function;
 

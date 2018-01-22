@@ -1,8 +1,7 @@
-package com.xyz.reits2.auth.repository;
+package org.crisli.myauth.repository;
 
+import org.crisli.myauth.domain.User;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
-
-import com.xyz.reits2.auth.domain.User;
 
 import reactor.core.publisher.Mono;
 

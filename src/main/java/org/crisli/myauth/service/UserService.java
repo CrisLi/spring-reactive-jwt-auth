@@ -1,8 +1,7 @@
-package com.xyz.reits2.auth.service;
+package org.crisli.myauth.service;
 
+import org.crisli.myauth.domain.User;
 import org.springframework.security.core.userdetails.ReactiveUserDetailsService;
-
-import com.xyz.reits2.auth.domain.User;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

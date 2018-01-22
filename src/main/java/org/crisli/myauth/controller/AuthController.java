@@ -1,9 +1,12 @@
-package com.xyz.reits2.auth.controller;
+package org.crisli.myauth.controller;
 
 import static java.util.Collections.singletonMap;
 
 import javax.validation.constraints.NotEmpty;
 
+import org.crisli.myauth.domain.User;
+import org.crisli.myauth.jwt.JwtTokenManager;
+import org.crisli.myauth.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,10 +21,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
-
-import com.xyz.reits2.auth.domain.User;
-import com.xyz.reits2.auth.jwt.JwtTokenManager;
-import com.xyz.reits2.auth.service.UserService;
 
 import lombok.Data;
 import lombok.Getter;

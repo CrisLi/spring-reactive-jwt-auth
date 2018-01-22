@@ -1,4 +1,4 @@
-package com.xyz.reits2.auth.domain;
+package org.crisli.myauth.domain;
 
 import java.time.LocalDateTime;
 

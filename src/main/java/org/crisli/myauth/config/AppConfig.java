@@ -1,4 +1,4 @@
-package com.xyz.reits2.auth.config;
+package org.crisli.myauth.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

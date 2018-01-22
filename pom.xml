@@ -3,12 +3,12 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.xyz.reits2</groupId>
-    <artifactId>reits2-auth</artifactId>
+    <groupId>org.crisli.myauth</groupId>
+    <artifactId>myauth</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>reits2-auth</name>
+    <name>myauth</name>
     <description></description>
 
     <parent>

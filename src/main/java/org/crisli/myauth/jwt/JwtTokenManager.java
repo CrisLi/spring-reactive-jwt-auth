@@ -1,4 +1,4 @@
-package com.xyz.reits2.auth.jwt;
+package org.crisli.myauth.jwt;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -10,12 +10,11 @@ import java.util.Map;
 
 import javax.annotation.PostConstruct;
 
+import org.crisli.myauth.domain.User;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.authentication.BadCredentialsException;
-
-import com.xyz.reits2.auth.domain.User;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

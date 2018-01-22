@@ -1,4 +1,4 @@
-package com.xyz.reits2.auth.controller;
+package org.crisli.myauth.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

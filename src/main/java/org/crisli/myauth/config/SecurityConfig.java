@@ -1,5 +1,8 @@
-package com.xyz.reits2.auth.config;
+package org.crisli.myauth.config;
 
+import org.crisli.myauth.jwt.JwtAuthenticationManager;
+import org.crisli.myauth.jwt.JwtAuthenticationWebFilter;
+import org.crisli.myauth.jwt.JwtTokenManager;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpMethod;
@@ -7,10 +10,6 @@ import org.springframework.security.config.annotation.web.reactive.EnableWebFlux
 import org.springframework.security.config.web.server.SecurityWebFiltersOrder;
 import org.springframework.security.config.web.server.ServerHttpSecurity;
 import org.springframework.security.web.server.SecurityWebFilterChain;
-
-import com.xyz.reits2.auth.jwt.JwtAuthenticationManager;
-import com.xyz.reits2.auth.jwt.JwtAuthenticationWebFilter;
-import com.xyz.reits2.auth.jwt.JwtTokenManager;
 
 @Configuration
 @EnableWebFluxSecurity

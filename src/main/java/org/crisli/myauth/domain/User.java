@@ -1,4 +1,4 @@
-package com.xyz.reits2.auth.domain;
+package org.crisli.myauth.domain;
 
 import static com.fasterxml.jackson.annotation.JsonProperty.Access.WRITE_ONLY;
 import static java.util.Collections.emptyList;
